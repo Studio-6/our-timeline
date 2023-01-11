@@ -8,12 +8,14 @@
 
 section {
   height: 100vh;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 100;
   background-color: #22A7F0;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 10%;
+  padding-left: 380px;
 }
 section:nth-child(1) {
   background: white;
@@ -39,6 +41,12 @@ section:nth-child(7) {
 section:nth-child(8) {
   background: #FFFFFF;
 }
+section:nth-child(9) {
+  background: #FFFFFF;
+}
+section:nth-child(10) {
+  background: #FFFFFF;
+}
 
 .nav__wrapper {
   position: fixed;
@@ -52,7 +60,9 @@ section:nth-child(8) {
   margin: 0 0 100px 30px;
 }
 .nav__counter {
-  font-size: 24px;
+  font-size: 26px;
+  font-family: "Big Caslon", Serif;
+  font-weight: 400;
   transition: all 0.15s ease-out;
 }
 .nav__title {
@@ -114,6 +124,7 @@ section:nth-child(8) {
   top: 35px;
 }
 .nav li.active .nav__counter {
+  font-family: "Big Caslon", Serif;
   font-size: 48px;
 }
 .nav li.active .nav__title {
